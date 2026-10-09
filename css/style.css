@@ -49,34 +49,31 @@ header h1 {
 }
 
 .search-icon {
-    width: 42px;
-    height: 36px;
     opacity: 1;
-    top: 12px;
-    left: 810px;
-    font-family: Inter;
-    font-weight: 700;
+    font-family:'inter';
+    font-weight: 900;
     font-style: Bold;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 120%;
-    background-color: #fff;
+    background: none;
     border: none;
 }
 
-.nav-btn-countent {
+.nav-btn-countent{
     display: inline-block;
     background-color: #1557ff;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700px;
-    font-size: 16px;
-    padding: 16px 30px;
-    white-space: nowrap;
-    border-radius: 8px;
+    padding: 5px 50px;
+    opacity: 1;
+    border-radius: 5px;
 }
 
+.nav-btn-countent a{
+    color: #fff;
+    font: 'inter';
+    font-weight: 700;
+    font-size: 12px;
+    font-style: bold;
+}
 main {
     width: 1175px;
     background-color: #08121E;
@@ -153,10 +150,12 @@ main {
     font-size: 66px;
 }
 
-.paragraph{
-    width: 405;
-height: 31;
-top: 213px;
-left: 61px;
-opacity: 1;
+.paragraph {
+    height: 31;
+    top: 213px;
+    padding-left: 61px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
 }
