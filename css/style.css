@@ -44,7 +44,6 @@ header h1 {
     color: #08111D;
     align-items: center;
     text-decoration: none;
-
 }
 
 .search-icon {
@@ -119,8 +118,9 @@ main {
 
 .life {
     opacity: 1px;
-    padding-left: 60px;
+    margin-left: 60px;
     padding-top: 0px;
+    margin-top: 0px;
     color: #1557ff;
     font-style: normal;
     font-family: 'inter';
@@ -177,7 +177,7 @@ main {
 }
 
 .box-2 {
-    margin-left: 40px;
+    margin-left:40px;
 }
 
 .descover-btn {
@@ -216,6 +216,23 @@ main {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
+}
+.cercels {
+    background-color: red ;
+    margin-left: 61px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cercels span{
+    color: #fff;
+    border: 20px;
+    border-radius: 100% 100%;
+    background-color: #08111D;
+}
 
-
+.acceuil-items a.underline{
+    color: #1557ff;
+    text-decoration: underline;
 }
